@@ -18,5 +18,11 @@
 		"http://*/*",
 		"tabs",
 		"activeTab"
+	],
+	"content_scripts": [
+		{
+			"js":["inject.js"],
+			"matches": ["https://*/*","http://*/*","file://*/*"]
+		}
 	]
 }
