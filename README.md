@@ -9,5 +9,7 @@ Steps to run:
 
 ToDo:
 
-- replace automatically without clicking extension button
-- remember user's preferred pages 
+- [x] replace automatically without clicking extension button
+- [ ] remember user's preferred pages (stored as cache?)
+- [ ] get user input for funny phrases
+- [ ] allow selective labels to be replaced (show users a list of labels and make them choose maybe...)
