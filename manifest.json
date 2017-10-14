@@ -1,0 +1,22 @@
+{
+	"name": "Funny Form Labels",
+	"description": "Injecting stuff",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"homepage_url": "http://github.com/flamefractal",
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": true
+	},
+	"browser_action": {
+		"default_title": "Inject!"
+	},
+	"permissions": [
+		"https://*/*",
+		"http://*/*",
+		"tabs",
+		"activeTab"
+	]
+}
